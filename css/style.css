@@ -33,6 +33,22 @@ body, html {
     transform: translate(-50%, -50%);
     color: black;
   }
+  .buttonhero {
+    Background-color: white;
+    Color: black;
+    Border: 2px #FF8360;
+    Border-radius: 4px;
+    Font-size: 16px;
+    Transition-duration: 0.4s;
+  }
+   
+  .buttonhero:hover{
+    Background-color: #FF8360;
+    Color: white;
+    Border: 2px #FF8360;
+    Border-radius: 4px;
+    Font-size: 16px;
+  }
 
   #locations {
     padding:200px 0px 100px;
@@ -85,8 +101,11 @@ body, html {
     display:flex;
     justify-content: space-between;
     }
-
-    
+    .container1 {
+      position: center;
+      margin:auto;
+    }
+  
 
     .footer-dark {
         padding:50px 0;
